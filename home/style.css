@@ -37,7 +37,7 @@ footer{
     padding-top: 40px;
 }
 .mid{
-    height: 2200px;
+    min-height: 2200px;
     width: 100%;
     background-color: #f6f6f6;
 }
@@ -49,6 +49,7 @@ footer{
 .card{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     height: 400px;
+    padding: 20px;
     padding-top: 50px;
     width: 80%;
     background-color: white;
@@ -65,6 +66,6 @@ footer{
     margin-left: 0;
 }
 .past{
-    height: 800px;
+    min-height: 800px;
     width: 100%;
 }
