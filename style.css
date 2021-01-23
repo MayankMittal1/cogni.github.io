@@ -1,0 +1,70 @@
+#myvideo{
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+.navbar {
+    background-color: white;
+    min-height: 70px;
+    font-weight: bold; }
+
+.dark-overlay{
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 850px;
+}
+.home {
+    min-height: 850px;
+    background-size: cover;
+    background-attachment: fixed; 
+}
+.nav-link{
+    color: black;
+}
+.nav-link:hover{
+    color: gray;
+}
+.home-inner {
+    padding-top: 150px; }
+footer{
+    height: 200px;
+}
+.footer{
+    padding-top: 40px;
+}
+.mid{
+    height: 2200px;
+    width: 100%;
+    background-color: #f6f6f6;
+}
+.break{
+    width: 100%;
+    height: 1px;
+    background-color: black;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 400px;
+    padding-top: 50px;
+    width: 80%;
+    background-color: white;
+}
+.mid-cards{
+    padding-top: 150px;
+}
+.bb{
+    margin-top: 2rem;
+    border: 0;
+    height: 5px;
+    width: 50px;
+    background:  rgb(252,124, 15);
+    margin-left: 0;
+}
+.past{
+    height: 800px;
+    width: 100%;
+}
