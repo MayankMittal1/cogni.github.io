@@ -128,3 +128,19 @@ footer{
         width: 100%;
         background-color: #f5a425;
         padding: 8px 15px; }
+.disco{
+    animation: disc 5s infinite;
+}
+@keyframes disc{
+    0%{color: rgb(252,124, 15);}
+    15%{color: rgb(252,124, 15);}
+    20%{color: chartreuse;}
+    35%{color: chartreuse;}
+    40%{color:yellow}
+    55%{color: yellow}
+    60%{color: cyan;}
+    75%{color: cyan;}
+    80%{color: deeppink}
+    95%{color: deeppink}
+    100%{color: rgb(252,124, 15);}
+}
