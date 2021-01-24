@@ -69,3 +69,62 @@ footer{
     min-height: 800px;
     width: 100%;
 }
+.reg-form{
+    background: url(fest.jpg) no-repeat;
+    min-height: 800px;
+    background-size: cover;
+    background-attachment: fixed; 
+}
+.dark-overlay-a{
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    width: 100%;
+    min-height: 800px;
+}
+.reg-card{
+    padding: 30px;
+    width: 80%;
+    min-height:500px;
+    background-color: rgba(255,255,255,0.3);
+    border-radius: 3px;
+}
+.reg-form-inner{
+    padding: 30px;
+    padding-top: 60px;
+}
+.form-input{
+    width: 95%;
+    height: 36px;
+    background-color: rgba(255,255,255,0.3);
+    margin-bottom: 11px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    padding-left: 15px;
+}
+.form-input::placeholder {
+    color: white;
+    font-size: 15px;
+     }
+
+.form-input-select::placeholder {
+        color: white;
+        font-size: 15px; }
+    
+.form-input-select{
+        width: 98%;
+        height: 36px;
+        background-color: rgba(255,255,255,0.3);
+        margin-bottom: 11px;
+        border: none;
+        border-radius: 3px;
+        color: white;
+        padding-left: 20px;
+    }
+.btn-ext-url {
+        border-radius: 2px;
+        display: block;
+        color: white;
+        width: 100%;
+        background-color: #f5a425;
+        padding: 8px 15px; }
