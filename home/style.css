@@ -23,6 +23,12 @@
         background-size: cover;
     }
 }
+h2{
+    font-size: 2vw;
+}
+h5{
+    font-size: 1.5vw;
+}
 .navbar {
     background-color: white;
     min-height: 70px;
