@@ -24,10 +24,10 @@
     }
 }
 h2{
-    font-size: 2vw;
+    font-size: calc(15px + 1.5vw);
 }
 h5{
-    font-size: 1.5vw;
+    font-size: calc(15px + 0.5vw);
 }
 .navbar {
     background-color: white;
@@ -72,8 +72,10 @@ footer{
     background-color: black;
 }
 .card{
+    display: flex;
+    flex-wrap: wrap;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    height: 400px;
+    min-height: 400px;
     padding: 20px;
     padding-top: 50px;
     width: 80%;
