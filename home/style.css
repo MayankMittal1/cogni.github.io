@@ -1,8 +1,27 @@
 #myvideo{
     right: 0;
     bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
+}
+@media (min-aspect-ratio :16/9){
+    #myvideo{
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-aspect-ratio :16/9){
+    #myvideo{
+        width: auto;
+        height: 100%;
+    }
+}
+@media (max-width: 767px) {
+    #myvideo {
+        display: none;
+    }
+    .home {
+        background: url('poster.png');
+        background-size: cover;
+    }
 }
 .navbar {
     background-color: white;
